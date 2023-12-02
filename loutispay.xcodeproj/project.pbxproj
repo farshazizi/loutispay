@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3DF63E2AEE930600FC2DA9 /* WelcomeGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DF63D2AEE930600FC2DA9 /* WelcomeGuideView.swift */; };
+		FB63C0192AC549A00061AB50 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63C0182AC549A00061AB50 /* RegisterView.swift */; };
+		FB63C01C2AC549C60061AB50 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63C01B2AC549C60061AB50 /* LoginView.swift */; };
+		FB63C01E2AC549DB0061AB50 /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63C01D2AC549DB0061AB50 /* WelcomePageView.swift */; };
+		FB77F5C82ABB348C005FA329 /* loutispayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5C72ABB348C005FA329 /* loutispayApp.swift */; };
+		FB77F5CA2ABB348C005FA329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5C92ABB348C005FA329 /* ContentView.swift */; };
+		FB77F5CC2ABB348D005FA329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB77F5CB2ABB348D005FA329 /* Assets.xcassets */; };
+		FB77F5CF2ABB348D005FA329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB77F5CE2ABB348D005FA329 /* Preview Assets.xcassets */; };
+		FB77F5D92ABB348D005FA329 /* loutispayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5D82ABB348D005FA329 /* loutispayTests.swift */; };
+		FB77F5E32ABB348D005FA329 /* loutispayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5E22ABB348D005FA329 /* loutispayUITests.swift */; };
+		FB77F5E52ABB348D005FA329 /* loutispayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5E42ABB348D005FA329 /* loutispayUITestsLaunchTests.swift */; };
+		FB77F5F52ABB38B7005FA329 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5F42ABB38B7005FA329 /* SplashScreenView.swift */; };
+		FB77F5F72ABB3DE4005FA329 /* OnBoardOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5F62ABB3DE4005FA329 /* OnBoardOneView.swift */; };
+		FB77F5F92ABB3DFD005FA329 /* OnBoardTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5F82ABB3DFD005FA329 /* OnBoardTwoView.swift */; };
+		FB77F5FC2ABB3E29005FA329 /* OnBoardThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77F5FB2ABB3E29005FA329 /* OnBoardThreeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB77F5D52ABB348D005FA329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB77F5BC2ABB348C005FA329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB77F5C32ABB348C005FA329;
+			remoteInfo = loutispay;
+		};
+		FB77F5DF2ABB348D005FA329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB77F5BC2ABB348C005FA329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB77F5C32ABB348C005FA329;
+			remoteInfo = loutispay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB3DF63D2AEE930600FC2DA9 /* WelcomeGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeGuideView.swift; sourceTree = "<group>"; };
+		FB63C0182AC549A00061AB50 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FB63C01B2AC549C60061AB50 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FB63C01D2AC549DB0061AB50 /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		FB77F5C42ABB348C005FA329 /* loutispay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loutispay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB77F5C72ABB348C005FA329 /* loutispayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loutispayApp.swift; sourceTree = "<group>"; };
+		FB77F5C92ABB348C005FA329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB77F5CB2ABB348D005FA329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB77F5CE2ABB348D005FA329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB77F5D42ABB348D005FA329 /* loutispayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loutispayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB77F5D82ABB348D005FA329 /* loutispayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loutispayTests.swift; sourceTree = "<group>"; };
+		FB77F5DE2ABB348D005FA329 /* loutispayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loutispayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB77F5E22ABB348D005FA329 /* loutispayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loutispayUITests.swift; sourceTree = "<group>"; };
+		FB77F5E42ABB348D005FA329 /* loutispayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loutispayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB77F5F42ABB38B7005FA329 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		FB77F5F62ABB3DE4005FA329 /* OnBoardOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardOneView.swift; sourceTree = "<group>"; };
+		FB77F5F82ABB3DFD005FA329 /* OnBoardTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardTwoView.swift; sourceTree = "<group>"; };
+		FB77F5FB2ABB3E29005FA329 /* OnBoardThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardThreeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB77F5C12ABB348C005FA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB77F5D12ABB348D005FA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB77F5DB2ABB348D005FA329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB63C01A2AC549AB0061AB50 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FB63C0182AC549A00061AB50 /* RegisterView.swift */,
+				FB63C01B2AC549C60061AB50 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FB77F5BB2ABB348C005FA329 = {
+			isa = PBXGroup;
+			children = (
+				FB77F5C62ABB348C005FA329 /* loutispay */,
+				FB77F5D72ABB348D005FA329 /* loutispayTests */,
+				FB77F5E12ABB348D005FA329 /* loutispayUITests */,
+				FB77F5C52ABB348C005FA329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB77F5C52ABB348C005FA329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB77F5C42ABB348C005FA329 /* loutispay.app */,
+				FB77F5D42ABB348D005FA329 /* loutispayTests.xctest */,
+				FB77F5DE2ABB348D005FA329 /* loutispayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB77F5C62ABB348C005FA329 /* loutispay */ = {
+			isa = PBXGroup;
+			children = (
+				FBC6F2562AC0076300F610F8 /* Views */,
+				FB77F5C72ABB348C005FA329 /* loutispayApp.swift */,
+				FB77F5C92ABB348C005FA329 /* ContentView.swift */,
+				FB77F5CB2ABB348D005FA329 /* Assets.xcassets */,
+				FB77F5CD2ABB348D005FA329 /* Preview Content */,
+			);
+			path = loutispay;
+			sourceTree = "<group>";
+		};
+		FB77F5CD2ABB348D005FA329 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB77F5CE2ABB348D005FA329 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB77F5D72ABB348D005FA329 /* loutispayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB77F5D82ABB348D005FA329 /* loutispayTests.swift */,
+			);
+			path = loutispayTests;
+			sourceTree = "<group>";
+		};
+		FB77F5E12ABB348D005FA329 /* loutispayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB77F5E22ABB348D005FA329 /* loutispayUITests.swift */,
+				FB77F5E42ABB348D005FA329 /* loutispayUITestsLaunchTests.swift */,
+			);
+			path = loutispayUITests;
+			sourceTree = "<group>";
+		};
+		FB77F5FA2ABB3E05005FA329 /* OnBoards */ = {
+			isa = PBXGroup;
+			children = (
+				FB77F5F62ABB3DE4005FA329 /* OnBoardOneView.swift */,
+				FB77F5F82ABB3DFD005FA329 /* OnBoardTwoView.swift */,
+				FB77F5FB2ABB3E29005FA329 /* OnBoardThreeView.swift */,
+			);
+			path = OnBoards;
+			sourceTree = "<group>";
+		};
+		FBC6F2562AC0076300F610F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB63C01A2AC549AB0061AB50 /* Auth */,
+				FB77F5FA2ABB3E05005FA329 /* OnBoards */,
+				FB77F5F42ABB38B7005FA329 /* SplashScreenView.swift */,
+				FB63C01D2AC549DB0061AB50 /* WelcomePageView.swift */,
+				FB3DF63D2AEE930600FC2DA9 /* WelcomeGuideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB77F5C32ABB348C005FA329 /* loutispay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB77F5E82ABB348D005FA329 /* Build configuration list for PBXNativeTarget "loutispay" */;
+			buildPhases = (
+				FB77F5C02ABB348C005FA329 /* Sources */,
+				FB77F5C12ABB348C005FA329 /* Frameworks */,
+				FB77F5C22ABB348C005FA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loutispay;
+			productName = loutispay;
+			productReference = FB77F5C42ABB348C005FA329 /* loutispay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB77F5D32ABB348D005FA329 /* loutispayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB77F5EB2ABB348D005FA329 /* Build configuration list for PBXNativeTarget "loutispayTests" */;
+			buildPhases = (
+				FB77F5D02ABB348D005FA329 /* Sources */,
+				FB77F5D12ABB348D005FA329 /* Frameworks */,
+				FB77F5D22ABB348D005FA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB77F5D62ABB348D005FA329 /* PBXTargetDependency */,
+			);
+			name = loutispayTests;
+			productName = loutispayTests;
+			productReference = FB77F5D42ABB348D005FA329 /* loutispayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB77F5DD2ABB348D005FA329 /* loutispayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB77F5EE2ABB348D005FA329 /* Build configuration list for PBXNativeTarget "loutispayUITests" */;
+			buildPhases = (
+				FB77F5DA2ABB348D005FA329 /* Sources */,
+				FB77F5DB2ABB348D005FA329 /* Frameworks */,
+				FB77F5DC2ABB348D005FA329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB77F5E02ABB348D005FA329 /* PBXTargetDependency */,
+			);
+			name = loutispayUITests;
+			productName = loutispayUITests;
+			productReference = FB77F5DE2ABB348D005FA329 /* loutispayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB77F5BC2ABB348C005FA329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FB77F5C32ABB348C005FA329 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FB77F5D32ABB348D005FA329 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FB77F5C32ABB348C005FA329;
+					};
+					FB77F5DD2ABB348D005FA329 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FB77F5C32ABB348C005FA329;
+					};
+				};
+			};
+			buildConfigurationList = FB77F5BF2ABB348C005FA329 /* Build configuration list for PBXProject "loutispay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB77F5BB2ABB348C005FA329;
+			productRefGroup = FB77F5C52ABB348C005FA329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB77F5C32ABB348C005FA329 /* loutispay */,
+				FB77F5D32ABB348D005FA329 /* loutispayTests */,
+				FB77F5DD2ABB348D005FA329 /* loutispayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB77F5C22ABB348C005FA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB77F5CF2ABB348D005FA329 /* Preview Assets.xcassets in Resources */,
+				FB77F5CC2ABB348D005FA329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB77F5D22ABB348D005FA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB77F5DC2ABB348D005FA329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB77F5C02ABB348C005FA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB77F5F52ABB38B7005FA329 /* SplashScreenView.swift in Sources */,
+				FB77F5FC2ABB3E29005FA329 /* OnBoardThreeView.swift in Sources */,
+				FB3DF63E2AEE930600FC2DA9 /* WelcomeGuideView.swift in Sources */,
+				FB63C01E2AC549DB0061AB50 /* WelcomePageView.swift in Sources */,
+				FB77F5F92ABB3DFD005FA329 /* OnBoardTwoView.swift in Sources */,
+				FB77F5F72ABB3DE4005FA329 /* OnBoardOneView.swift in Sources */,
+				FB63C0192AC549A00061AB50 /* RegisterView.swift in Sources */,
+				FB77F5CA2ABB348C005FA329 /* ContentView.swift in Sources */,
+				FB63C01C2AC549C60061AB50 /* LoginView.swift in Sources */,
+				FB77F5C82ABB348C005FA329 /* loutispayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB77F5D02ABB348D005FA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB77F5D92ABB348D005FA329 /* loutispayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB77F5DA2ABB348D005FA329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB77F5E32ABB348D005FA329 /* loutispayUITests.swift in Sources */,
+				FB77F5E52ABB348D005FA329 /* loutispayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB77F5D62ABB348D005FA329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB77F5C32ABB348C005FA329 /* loutispay */;
+			targetProxy = FB77F5D52ABB348D005FA329 /* PBXContainerItemProxy */;
+		};
+		FB77F5E02ABB348D005FA329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB77F5C32ABB348C005FA329 /* loutispay */;
+			targetProxy = FB77F5DF2ABB348D005FA329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB77F5E62ABB348D005FA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB77F5E72ABB348D005FA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB77F5E92ABB348D005FA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"loutispay/Preview Content\"";
+				DEVELOPMENT_TEAM = AJQVZJN6VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farshazizi.loutispay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB77F5EA2ABB348D005FA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"loutispay/Preview Content\"";
+				DEVELOPMENT_TEAM = AJQVZJN6VD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farshazizi.loutispay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB77F5EC2ABB348D005FA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQVZJN6VD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farshazizi.loutispayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loutispay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loutispay";
+			};
+			name = Debug;
+		};
+		FB77F5ED2ABB348D005FA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQVZJN6VD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farshazizi.loutispayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loutispay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/loutispay";
+			};
+			name = Release;
+		};
+		FB77F5EF2ABB348D005FA329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQVZJN6VD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farshazizi.loutispayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loutispay;
+			};
+			name = Debug;
+		};
+		FB77F5F02ABB348D005FA329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJQVZJN6VD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = farshazizi.loutispayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loutispay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB77F5BF2ABB348C005FA329 /* Build configuration list for PBXProject "loutispay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB77F5E62ABB348D005FA329 /* Debug */,
+				FB77F5E72ABB348D005FA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB77F5E82ABB348D005FA329 /* Build configuration list for PBXNativeTarget "loutispay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB77F5E92ABB348D005FA329 /* Debug */,
+				FB77F5EA2ABB348D005FA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB77F5EB2ABB348D005FA329 /* Build configuration list for PBXNativeTarget "loutispayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB77F5EC2ABB348D005FA329 /* Debug */,
+				FB77F5ED2ABB348D005FA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB77F5EE2ABB348D005FA329 /* Build configuration list for PBXNativeTarget "loutispayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB77F5EF2ABB348D005FA329 /* Debug */,
+				FB77F5F02ABB348D005FA329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB77F5BC2ABB348C005FA329 /* Project object */;
+}
