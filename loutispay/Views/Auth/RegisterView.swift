@@ -29,6 +29,16 @@ struct Register: View {
                 Text("Handphone")
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
                 
+                Rectangle()
+                  .foregroundColor(.clear)
+                  .frame(width: 354, height: 60)
+                  .cornerRadius(8)
+                  .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                      .inset(by: 0.5)
+                      .stroke(Color(red: 0.88, green: 0.88, blue: 0.88), lineWidth: 1)
+                  )
+                
                 Spacer().frame(maxHeight: 20)
                 
                 Button(action: {}) {
@@ -40,14 +50,13 @@ struct Register: View {
             }
             .frame(maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .center)
             
-            HStack {
-                Text("By signing up you agree to our Term Of Use and Privacy Policy")
-                    .foregroundColor(Color("Body"))
-                    .font(.system(size: 12))
-                    .multilineTextAlignment(.center)
-            }
-            .frame(alignment: .bottom)
+            Text("By signing up you agree to our term of use and privacy policy")
+              .font(Font.custom("Poppins", size: 12))
+              .multilineTextAlignment(.center)
+              .foregroundColor(Color(red: 0.62, green: 0.62, blue: 0.62))
+              .frame(width: 264, alignment: .top)
         }
+        .frame(maxHeight: .infinity, alignment: .topLeading)
         .padding(30)
     }
 }
