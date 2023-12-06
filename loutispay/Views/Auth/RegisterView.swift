@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Register: View {
-    @State private var handphone = ""
+    @State private var handphone: String = ""
     
     var body: some View {
         VStack {
